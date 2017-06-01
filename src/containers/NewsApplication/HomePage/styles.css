@@ -1,0 +1,10 @@
+.root {
+  box-shadow: 1px 0 20px #ffff;
+  color: #000000;
+  background: #607D8B;
+  width: 100%;
+  border:1px solid;
+  max-width: 1280px;
+  min-width: 380px;
+  margin: 0 auto;
+}

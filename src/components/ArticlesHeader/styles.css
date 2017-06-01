@@ -1,0 +1,14 @@
+.container{border-bottom: 1px solid #ebebeb;margin:10px 0px;width:100%;padding: 10px 0px;}
+.linkTo{color:#cccccc;width:90%;position: relative;left: 70px;}
+.navList {float: right;list-style-type: none;}
+.navList > li {display: inline-block;padding:0px 15px;border-right: 1px solid #ebebeb;}
+.navList li:last-child{border: none;}
+.clearfix{clear: both;}
+
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 640px)
+ {
+      .navCont{width:100%;}
+      .linkTo{left:10px;}
+}

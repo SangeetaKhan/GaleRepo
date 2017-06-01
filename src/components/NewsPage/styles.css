@@ -1,0 +1,41 @@
+.newsItems{
+  text-align: center;
+}
+.newsList{
+  width:30%;
+  display: inline-flex;
+  text-align: left;
+}
+.newsInfo{
+  box-sizing: border-box;
+  margin:2px 4px;
+  background: #ffffff;
+  border-radius:5px;
+  border: 1px solid #e2e2e2;
+  padding-bottom:5px;
+}
+.newsInfo > h4{text-align: center;}
+.clearfix{clear: both;}
+.newsInfo > p {
+  text-align: left;
+  margin-left:10px;
+}
+.newsInfo button{
+  background: #03A9F4;
+  border:1px solid #03A9F4;
+  color: #ffffff;
+  margin:0px 10px;
+}
+.newsCover{
+  width: 100%;
+  margin: 10px auto;
+}
+
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 640px)
+ {
+   .newsList{
+     width:50%;
+   }
+}

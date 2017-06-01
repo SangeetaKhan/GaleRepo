@@ -1,0 +1,16 @@
+.container{border-bottom: 1px solid #ebebeb;margin:10px 0px;width:100%;}
+.navCont{width:95%;}
+.navList {float: right;list-style-type: none;}
+.navList > li {display: inline-block;padding:0px 15px;border-right: 1px solid #ebebeb;}
+.navList > li > a{color:#cccccc; }
+.navList > li:last-child{border: none;}
+.clearfix{clear: both;}
+.active {color:#ffffff !important;font-weight: bold;border-bottom: 1px solid #03A9F4;}
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 640px)
+ {
+      .navCont{width:100%;font-size: 12px;}
+      .navCont ul {padding: 0px;}
+      .navCont li {padding: 0px 13px;}
+}
